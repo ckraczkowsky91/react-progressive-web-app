@@ -14,6 +14,7 @@ function App() {
     };
     fetchData();
   }, []);
+
   // We are using a JSX expression to create a list of divs
   // each div needs a unique 'key' prop otherwise the browser issues a warning
   return (
